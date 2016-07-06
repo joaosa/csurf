@@ -60,7 +60,7 @@ object contains options for this functionality (when set to `true`, the
 defaults for the options are used). The options may contain any of the
 following keys:
 
-  - `key` - the name of the cookie to use to store the token secret
+  - `name` - the name of the cookie to use to store the token secret
     (defaults to `'_csrf'`).
   - `path` - the path of the cookie (defaults to `'/'`).
   - any other [res.cookie](http://expressjs.com/4x/api.html#res.cookie)
